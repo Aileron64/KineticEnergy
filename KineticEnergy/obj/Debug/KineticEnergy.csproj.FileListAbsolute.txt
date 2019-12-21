@@ -1,0 +1,14 @@
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\bin\Debug\KineticEnergy.exe.config
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\bin\Debug\KineticEnergy.exe
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\bin\Debug\KineticEnergy.pdb
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.csprojAssemblyReference.cache
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\MainWindow.g.cs
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\App.g.cs
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy_MarkupCompile.cache
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\MainWindow.baml
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.g.resources
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.Properties.Resources.resources
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.csproj.GenerateResource.cache
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.csproj.CoreCompileInputs.cache
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.exe
+C:\Google Drive\C#\KineticEnergy\KineticEnergy\obj\Debug\KineticEnergy.pdb

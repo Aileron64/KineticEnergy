@@ -1,0 +1,64 @@
+﻿<Window x:Class="KineticEnergy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Kinetic Energy" Height="450" Width="800">
+    <Grid Background="#9099f5">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Width="170" Height="155" Background="Ivory" Opacity="0.9"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="15"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Padding="10,10,0,0"
+                FontSize="11" VerticalContentAlignment="Stretch">Mass (kg)</Label>
+
+            <TextBox Grid.Row="1" Background="LightSteelBlue" Margin="5,0,5,5" Padding="5,0,5,0"
+                FontSize="14" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Right"
+                PreviewTextInput="NumberValidation"
+                Text="{Binding MassValue, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+            <Label Grid.Row="2" Padding="10,0,0,0"
+                FontSize="11" VerticalContentAlignment="Stretch" Grid.RowSpan="2">Velocity (m/s)</Label>
+
+            <TextBox Grid.Row="3" Background="LightSteelBlue" Margin="5,0,5,5" Padding="5,0,5,0"
+                FontSize="14" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Right"
+                PreviewTextInput="NumberValidation"
+                Text="{Binding VelocityValue, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+            <Label Grid.Row="4" Padding="10,0,0,0"
+                FontSize="11" VerticalContentAlignment="Center" >Kinetic Energy</Label>
+
+            <Label Grid.Row="5" Background="LightSteelBlue" Margin="5,0,5,5" Padding="5,0,8,0"
+                FontSize="14" VerticalContentAlignment="Center" HorizontalContentAlignment="Right"
+                Content="{Binding EnergyValue}"></Label>
+        </Grid>
+
+        <ListBox Grid.Column="1" ItemsSource="{Binding Labels}" Background="Ivory"
+                HorizontalAlignment="Stretch" 
+                SelectionChanged="BallSelected"></ListBox>
+
+        <ItemsControl Panel.ZIndex="-1" ItemsSource="{Binding Balls}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Canvas/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+        </ItemsControl>
+
+    </Grid>
+</Window>

@@ -1,0 +1,42 @@
+
+X #0
+Ball #0
+
+X #1
+Ball #1
+
+X #2
+Ball #2
+
+X #3
+Ball #3
+
+X #4
+Ball #4
+
+X #5
+Ball #5
+
+X #6
+Ball #6
+
+X #7
+Ball #7
+
+X #8
+Ball #8
+
+X #9
+Ball #9
+
+X #10
+Ball #10
+
+X #11
+Ball #11
+
+X #12
+Ball #12
+
+X #13
+Ball #13
